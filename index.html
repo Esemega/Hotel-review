@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reseña Hoteles</title>
+    <link rel="stylesheet" href="site.css">
   </head>
   <body>
-    <div class="contenedor">
+    <div class="header">
+      <h2>Reseña hotel</h2>
+    </div>
+    <div class="container">
       <div class="hotel">
         <div class="data">
           <span id="hotel-name" class="hotel-name">Hotel Desconocido</span>
           <span id="hotel-location" class="hotel-location">Desconocida</span>
         </div>
         <div class="img">
-          <img id="hotel-image" src="" alt="Foto hotel" class="hotel-image" />
+          <img id="hotel-image" src="https://cf.bstatic.com/xdata/images/city/540x270/645263.webp?k=86702c8cfba42aab19c2819daeb8054ba0600d7fa6f90928116583566c2f641f&o=" alt="Foto hotel" class="hotel-image" />
         </div>
       </div>
       <div class="review">
@@ -21,6 +25,7 @@
           <span>Puntuación:</span>
           <span class="stars"></span>
         </div>
+        <hr>
         <div class="review-anonymous">
           <label for="anonymous">Reseña anónima</label>
           <input type="checkbox" name="anonymous" id="anonymous" />

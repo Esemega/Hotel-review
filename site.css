@@ -48,3 +48,7 @@ img.hotel-image {
   max-width: 350px;
   height: auto;
 }
+
+.stars {
+    color: orange;
+}
